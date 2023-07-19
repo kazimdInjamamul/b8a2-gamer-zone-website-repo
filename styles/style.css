@@ -378,11 +378,11 @@ nav li a {
 @media screen and (max-width:576px) {
 
 
-    .Nav-title,
-    .nav > ul,
-    .nav-contect,
-    .online-img,
-    .border-img,
+    .Nav-title ,
+    .nav > ul ,
+    .nav-contect ,
+    .online-img ,
+    .border-img ,
     .nav-container ,
     .No-Installs,
     .action-game
@@ -409,4 +409,34 @@ nav li a {
 
     }
 
-}
+@media screen and (min-width:756px) and (max-width:960px) {
+    .Nav-title ,
+    .nav > ul ,
+    .nav-contect ,
+    .online-img ,
+    .border-img ,
+    .nav-container ,
+    .No-Installs,
+    .action-game
+     {
+        flex-direction: column;
+
+    }
+    .online-img{
+        margin-left: 0;
+        height: 50%;
+    }
+    .nav-contect {
+        gap: 20px;
+    }
+    .teams-leder img ,
+    
+    .hores {
+    
+        width: 90%;
+    }
+    }
+    .teams-leder {
+        flex-direction: column-reverse;
+
+    }
