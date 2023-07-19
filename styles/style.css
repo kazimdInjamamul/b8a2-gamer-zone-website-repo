@@ -1,0 +1,412 @@
+/* Work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* Header style */
+header {
+
+    padding: 50px 240px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.gamers {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.Nav-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-contect li {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(147, 186, 224);
+    border: none;
+    /* color: white; */
+    padding: 11px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Follow-Us-On {
+    margin-top: -20px;
+}
+
+.btn img {
+    width: 33.916px;
+    height: 24px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+
+}
+
+/*   mouse-hover */
+.btn:hover {
+    background-color: rgba(39, 35, 35, 0.1)
+}
+
+.nav-g {
+    color: #FF42A5;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 80px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3C354F;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+
+
+/* Goat section */
+
+.teams-titel {
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.teams-titel-sec {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.teams-leder {
+    display: flex;
+    align-items: center;
+    background-color: #f5f0ff;
+    /* justify-content: space-around; */
+    /* gap:10px; */
+}
+
+.teams-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.teams-content {
+    width: 901px;
+    height: 700px;
+    /* margin-left: 70px; */
+    /* margin-right: 70px; */
+    text-align: center;
+    padding-top: 120px;
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+.regue {
+    background: #4EC5F7;
+}
+
+/* online-funny */
+.online-funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.video-game {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-game {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 2.8rem;
+}
+
+.online-img {
+    border-radius: 5px;
+    /* margin-right: 240px; */
+    margin-left: 200px;
+    padding: 50px;
+    width: 342px;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+
+/* Play Instantly */
+
+
+
+.dwonload {
+    width: 341px;
+    height: 180px;
+    /* text-align:center; */
+
+    font-size: 48px;
+
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.Play-Instantly {
+    color: #F948B2;
+}
+
+.Play-games {
+    width: 341px;
+    height: 180px;
+}
+
+.Instantly {
+    margin-right: 20px;
+}
+
+.No-Installs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap:150px; */
+    margin-bottom 100px;
+    ;
+}
+
+.horse-talking {
+    margin-top: 120px;
+}
+
+.horse-talking,
+.hores {
+    height: 100%;
+    margin-left: 150px;
+}
+
+.talking {
+
+    width: 33px;
+    height: 36px;
+    border-radius: 8px;
+    border: 10px solid #ffffff;
+    position: relative;
+    bottom: 250px;
+    margin-bottom: 120px;
+}
+
+
+/* action-game */
+
+.action-game {
+    width: 1920px;
+    height: 427px;
+    align-items: center;
+    display: flex;
+}
+
+.arcede {
+    color: #f5f0ff;
+    background: #fff;
+    display: flex;
+    padding: 21px 40px;
+
+    gap: 10px;
+    border-radius: 48px;
+    color: #141414;
+    font-size: .7rem;
+    font-weight: 600;
+
+    margin-top: 40px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.divaided {
+    color: #f5f0ff;
+    background: #fff;
+    display: flex;
+    padding: 21px 40px;
+
+    gap: 10px;
+    border-radius: 48px;
+    color: #141414;
+    font-size: .7rem;
+    font-weight: 600;
+
+    margin-top: 40px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-img {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.border-img:hover {
+    border: 2px solid tomato;
+    border-radius: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+.ply-games {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #0B0223;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.ply-games li {
+    list-style: none;
+
+}
+
+.ply-game {
+    display: inline-flex;
+    padding: 10px;
+    font-size: 1.01rem;
+    align-items: flex-start;
+    gap: 60px;
+
+}
+
+.social-media {
+    margin-top: 56px;
+    padding-left: 90px;
+
+    display: flex;
+
+    justify-content: center;
+    gap: 40px;
+
+
+}
+
+.terms-game {
+    display: inline-flex;
+    padding: 10px;
+    font-size: .82rem;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.terms-games-pro {
+    font-size: .70rem;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+
+    .Nav-title,
+    .nav > ul,
+    .nav-contect,
+    .online-img,
+    .border-img,
+    .nav-container ,
+    .No-Installs,
+    .action-game
+     {
+        flex-direction: column;
+
+    }
+    .online-img{
+        margin-left: 0;
+        height: 50%;
+    }
+    .nav-contect {
+        gap: 20px;
+    }
+    .teams-leder img ,
+    
+    .hores {
+    
+        width: 90%;
+    }
+    }
+    .teams-leder {
+        flex-direction: column-reverse;
+
+    }
+
+}
