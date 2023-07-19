@@ -61,7 +61,7 @@ header {
 
 /*   mouse-hover */
 .btn:hover {
-    background-color: rgba(39, 35, 35, 0.1)
+    background-color: rgba(39, 35, 35, 0.1);
 }
 
 .nav-g {
@@ -100,7 +100,7 @@ nav li a {
 
 .teams-titel-sec {
     font-size: 95px;
-    font-weight: 800;
+    font-weight: 800px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -161,6 +161,7 @@ nav li a {
     font-weight: 700;
 }
 
+
 .video-game {
     color: #0B0223;
     font-size: 48px;
@@ -220,8 +221,7 @@ nav li a {
     align-items: center;
     justify-content: center;
     /* gap:150px; */
-    margin-bottom 100px;
-    ;
+    margin-bottom: 100px;;
 }
 
 .horse-talking {
@@ -266,7 +266,6 @@ nav li a {
     color: #141414;
     font-size: .7rem;
     font-weight: 600;
-
     margin-top: 40px;
     margin-right: 5px;
     align-items: center;
@@ -280,19 +279,16 @@ nav li a {
     background: #fff;
     display: flex;
     padding: 21px 40px;
-
     gap: 10px;
     border-radius: 48px;
     color: #141414;
     font-size: .7rem;
     font-weight: 600;
-
     margin-top: 40px;
     margin-right: 5px;
     align-items: center;
     justify-content: center;
 }
-
 .action-game {
     display: flex;
     align-items: center;
@@ -300,14 +296,10 @@ nav li a {
 }
 
 .border-img {
-
-
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-
-
 }
 
 .border-img:hover {
@@ -315,15 +307,6 @@ nav li a {
     border-radius: 100px;
 
 }
-
-
-
-
-
-
-
-
-
 .ply-games {
     text-align: center;
     margin-top: 100px;
@@ -349,13 +332,9 @@ nav li a {
 .social-media {
     margin-top: 56px;
     padding-left: 90px;
-
     display: flex;
-
     justify-content: center;
     gap: 40px;
-
-
 }
 
 .terms-game {
@@ -398,25 +377,20 @@ nav li a {
         gap: 20px;
     }
     .teams-leder img ,
-    
     .hores {
     
         width: 90%;
     }
-    
     .teams-leder {
         flex-direction: column-reverse;
-
     }
 }
 
-@media screen and (min-width:756px) and (max-width:960px) {
 
+@media screen and (min-width:576px) and (max-width:960px) {
 *{
     align-items: center;
 }
-
-
 
     .Nav-title ,
     .nav > ul ,
@@ -439,12 +413,10 @@ nav li a {
         gap: 20px;
     }
     .teams-leder img ,
-    
     .hores {
     
         width: 90%;
     }
-    
     .teams-leder {
         flex-direction: column-reverse;
 
