@@ -112,7 +112,7 @@ nav li a {
     display: flex;
     align-items: center;
     background-color: #f5f0ff;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     /* gap:10px; */
 }
 
@@ -403,13 +403,21 @@ nav li a {
     
         width: 90%;
     }
-    }
+    
     .teams-leder {
         flex-direction: column-reverse;
 
     }
+}
 
 @media screen and (min-width:756px) and (max-width:960px) {
+
+*{
+    align-items: center;
+}
+
+
+
     .Nav-title ,
     .nav > ul ,
     .nav-contect ,
@@ -423,7 +431,8 @@ nav li a {
 
     }
     .online-img{
-        margin-left: 0;
+        margin-left 100px;;
+        margin-right: 100 px;
         height: 50%;
     }
     .nav-contect {
@@ -435,8 +444,9 @@ nav li a {
     
         width: 90%;
     }
-    }
+    
     .teams-leder {
         flex-direction: column-reverse;
 
     }
+}
